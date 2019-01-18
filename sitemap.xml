@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://eksplain.github.io/notes/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/post/process/algo/solving_coding_exercises/</loc>
+    <loc>https://eksplain.github.io/notes/post/process/algo/solving_coding_exercises/</loc>
     <lastmod>2018-11-02T01:52:26+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/math/concept/logarithms/</loc>
+    <loc>https://eksplain.github.io/notes/post/math/concept/logarithms/</loc>
     <lastmod>2018-10-31T18:12:13+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/algo/introduction/intro/</loc>
+    <loc>https://eksplain.github.io/notes/post/algo/introduction/intro/</loc>
     <lastmod>2018-10-27T17:01:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://eksplain.github.io/notes/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://eksplain.github.io/notes/</loc>
     <lastmod>2018-11-02T01:52:26+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://eksplain.github.io/notes/post/</loc>
     <lastmod>2018-11-02T01:52:26+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://eksplain.github.io/notes/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
