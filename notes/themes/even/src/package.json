@@ -2,6 +2,7 @@
   "name": "even-src",
   "version": "1.0.0",
   "description": "even source file",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "webpack",
@@ -27,5 +28,9 @@
     "uglifyjs-webpack-plugin": "^1.1.6",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "npm": "^6.6.0"
   }
 }

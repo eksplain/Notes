@@ -2,3 +2,18 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+
+
+// Font size attribute applied to '<html>' and '<body>'.
+$global-font-size: 18px !default;
+
+// Global width of '<body>'.
+$global-body-width: 940px !default;
+
+@font-face {
+  font-family: 'Sawarabi Mincho';
+  src: url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+}
+
+// Font family of the site.
+$global-font-family: 'Sawarabi Mincho', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
