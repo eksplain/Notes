@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Making sense of logarithms in computing and beyond - Eksplain - about programming</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Theme by olOwOlo. Content by eksplain" />
+  <meta name="description" content="Every one for each other Consider the equation
+$$ a = b &#43; c$$
+In the above expression, the value of a is expressed in terms of b and c. We can also express the values of b and c in a similar manner.
+$$ b = a - c $$ $$ c = a - b $$
+Now, consider the equation
+$$ p = q \times r$$
+It can be expressed for q and r as" />
+
+  <meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.52" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/math/concept/logarithms/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Making sense of logarithms in computing and beyond" />
+<meta property="og:description" content="Every one for each other Consider the equation
+$$ a = b &#43; c$$
+In the above expression, the value of a is expressed in terms of b and c. We can also express the values of b and c in a similar manner.
+$$ b = a - c $$ $$ c = a - b $$
+Now, consider the equation
+$$ p = q \times r$$
+It can be expressed for q and r as" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/math/concept/logarithms/" /><meta property="article:published_time" content="2018-10-31T18:12:13&#43;01:00"/>
+<meta property="article:modified_time" content="2018-10-31T18:12:13&#43;01:00"/>
+
+<meta itemprop="name" content="Making sense of logarithms in computing and beyond">
+<meta itemprop="description" content="Every one for each other Consider the equation
+$$ a = b &#43; c$$
+In the above expression, the value of a is expressed in terms of b and c. We can also express the values of b and c in a similar manner.
+$$ b = a - c $$ $$ c = a - b $$
+Now, consider the equation
+$$ p = q \times r$$
+It can be expressed for q and r as">
+
+
+<meta itemprop="datePublished" content="2018-10-31T18:12:13&#43;01:00" />
+<meta itemprop="dateModified" content="2018-10-31T18:12:13&#43;01:00" />
+<meta itemprop="wordCount" content="649">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Making sense of logarithms in computing and beyond"/>
+<meta name="twitter:description" content="Every one for each other Consider the equation
+$$ a = b &#43; c$$
+In the above expression, the value of a is expressed in terms of b and c. We can also express the values of b and c in a similar manner.
+$$ b = a - c $$ $$ c = a - b $$
+Now, consider the equation
+$$ p = q \times r$$
+It can be expressed for q and r as"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Eksplain</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Eksplain</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Making sense of logarithms in computing and beyond</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-10-31 </span>
+        
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#every-one-for-each-other">Every one for each other</a></li>
+<li><a href="#things-get-tricky">Things get tricky</a></li>
+<li><a href="#like-a-snail">Like a snail 🐌</a></li>
+<li><a href="#closest-power">Closest power</a></li>
+<li><a href="#logarithmic-complexity">Logarithmic complexity</a>
+<ul>
+<li><a href="#additional-reading">Additional reading:</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    
+
+    
+    <div class="post-content">
+      
+
+<h2 id="every-one-for-each-other">Every one for each other</h2>
+
+<p>Consider the equation</p>
+
+<p>$$ a = b + c$$</p>
+
+<p>In the above expression, the value of <code>a</code> is expressed in terms of <code>b</code> and <code>c</code>. We can also express the values of <code>b</code> and <code>c</code> in a similar manner.</p>
+
+<p>$$ b = a - c $$
+$$ c = a - b $$</p>
+
+<hr />
+
+<p>Now, consider the equation</p>
+
+<p>$$ p = q \times r$$</p>
+
+<p>It can be expressed for <code>q</code> and <code>r</code> as</p>
+
+<p>$$ q = \frac{p}{r}$$
+$$ r = \frac{p}{q}$$</p>
+
+<hr />
+
+<h2 id="things-get-tricky">Things get tricky</h2>
+
+<p>The equations above have 3 variables in them and we are able to express one variable in terms of the other. Now, consider the equation</p>
+
+<p>$$ x = y^z $$</p>
+
+<p>Now, one part is easy.</p>
+
+<p>$$ y = \sqrt[z] x$$</p>
+
+<p>But how does one express <code>z</code> in terms of <code>y</code> and <code>x</code>? If you have read the title, then you could have guessed</p>
+
+<p>$$ z = \log_y x$$</p>
+
+<hr />
+
+<p>Let&rsquo;s see an example</p>
+
+<p>$$ 2^5 = 32 $$</p>
+
+<p>and likewise,</p>
+
+<p>$$ \sqrt[5] 32 = 2$$</p>
+
+<p>and also</p>
+
+<p>$$ \log_2 32 = 5 $$</p>
+
+<hr />
+
+<h2 id="like-a-snail">Like a snail 🐌</h2>
+
+<p>That sounds like a long jump, but what does this really mean in practice? First let us notice one interesting property about logarithms.</p>
+
+<blockquote>
+<p>Logarithms move at a slow pace</p>
+</blockquote>
+
+<p>Let us consider the following values</p>
+
+<p>$$ \text{3    9    27    81    243    729} $$</p>
+
+<p>If you see the pattern, they are values of $3^1$, $3^2$, $3^3$, $3^4$, $3^5$, $3^6$. Expressed in logarithms, they become</p>
+
+<p>$$ \log_3 3   = 1$$
+$$ \log_3 9   = 2$$
+$$ \log_3 27  = 3$$
+$$ \log_3 81  = 4$$
+$$ \log_3 243 = 5$$
+$$ \log_3 729 = 6$$</p>
+
+<p>Now, notice the last two values - the logarithm of $243$ to be the base $3$ is $5$, while the logarithm of $729$ is $6$. So, as the value increased by about $486(729 - 243)$, the value of it&rsquo;s logarithm(to the base 3) increased only by a very short value, i.e. $1$. Indeed,</p>
+
+<p>$$ \log_3 420 = 5.498$$</p>
+
+<p>If we examine the values further, as the values keep increasing dramatically, the value of it&rsquo;s logarithm moves at a slow pace.</p>
+
+<h2 id="closest-power">Closest power</h2>
+
+<p>Consider the value $49761$. Let&rsquo;s say we want to find the value that is closest to $49761$ that is a power of 7. How do we find it? Easy</p>
+
+<p>$$ \log_7 49761 = 5.557 $$</p>
+
+<p>Now, it gets easy for us, as we can clearly tell that the value lies between $7^5$ and $7^6$. This works great for larger numbers. Lets say, if we want to find out the closest power of number 11 to the value of speed of light in meters. You now know how to find it in one <a href="https://www.wolframalpha.com/input/?i=log11(3x10%5E8)">quick search</a>.</p>
+
+<h2 id="logarithmic-complexity">Logarithmic complexity</h2>
+
+<p>If you have studied algorithms, I am sure you must have come across $O(logn)$ or $O(nlogn)$ complexity without knowing what it exactly means. In the general case, the logarithm referred to is a base of 2. What it really means, is that as the input size grows, the run time of the program grows at a logarithmic rate, i.e. very slowly as we have noticed above.</p>
+
+<p>Consider binary search. We start with the middle element and then decide, whether to go left or right. When we choose a direction, what we are really doing is halving the search space by ignoring one half of it. So, if in the beginning there were $1024$ elements, by the first iteration, we have only 512 elements to search in. Every iteration, we lose half the items and the search space continues to become $\text{256, 128, 64, 32, 16, 8}$ etc, unless you get lucky and were searching for that middle element in one of these spaces. So, even for a large set that has $33554432$ elements in it, you can always find an item using binary search in less than $25$ steps. Unbelievable, right?</p>
+
+<h3 id="additional-reading">Additional reading:</h3>
+
+<p><a href="https://stackoverflow.com/questions/1569702/is-big-ologn-log-base-e">https://stackoverflow.com/questions/1569702/is-big-ologn-log-base-e</a></p>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Theme by olOwOlo. Content by eksplain</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-10-31</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/process/algo/solving_coding_exercises/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">How I solve coding exercises</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/algo/introduction/intro/">
+            <span class="next-text nav-default">A Beginner friendly, practical introduction to algorithms and data structures</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:eksplainer@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/eksplain" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2018 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Theme by olOwOlo. Content by eksplain</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

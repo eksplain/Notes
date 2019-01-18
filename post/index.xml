@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Eksplain - about programming</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Eksplain - about programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 02 Nov 2018 01:52:26 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I solve coding exercises</title>
+      <link>http://localhost:1313/post/process/algo/solving_coding_exercises/</link>
+      <pubDate>Fri, 02 Nov 2018 01:52:26 +0100</pubDate>
+      
+      <guid>http://localhost:1313/post/process/algo/solving_coding_exercises/</guid>
+      <description>My current way so far is to:
+ Translate the problem into mathematical terms, i.e. break it down in a way that it can be solved with some formula or repeating operations. I usually work out the problem on paper for a few inputs. Once I come up with a working formula, I evaluate its computational complexity as I have conceived it. Then I look for places where I can optimize it or go for less complexity.</description>
+    </item>
+    
+    <item>
+      <title>Making sense of logarithms in computing and beyond</title>
+      <link>http://localhost:1313/post/math/concept/logarithms/</link>
+      <pubDate>Wed, 31 Oct 2018 18:12:13 +0100</pubDate>
+      
+      <guid>http://localhost:1313/post/math/concept/logarithms/</guid>
+      <description>Every one for each other Consider the equation
+$$ a = b + c$$
+In the above expression, the value of a is expressed in terms of b and c. We can also express the values of b and c in a similar manner.
+$$ b = a - c $$ $$ c = a - b $$
+Now, consider the equation
+$$ p = q \times r$$
+It can be expressed for q and r as</description>
+    </item>
+    
+    <item>
+      <title>A Beginner friendly, practical introduction to algorithms and data structures</title>
+      <link>http://localhost:1313/post/algo/introduction/intro/</link>
+      <pubDate>Sat, 27 Oct 2018 17:01:50 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/algo/introduction/intro/</guid>
+      <description>The friendly neighbor Let&amp;rsquo;s say you have downloaded an application and notice that it started to slow down your computer/mobile so much that you are not able to use the computer when the application is open. Obviously, you would delete the application, rate it poorly and would never recommend it to anyone. Whenever you write any code or build an application yourself, the application will most likely run alongside other apps.</description>
+    </item>
+    
+  </channel>
+</rss>
